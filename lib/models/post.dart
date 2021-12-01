@@ -5,7 +5,7 @@ class Post {
   String? image;
   int? likesCount;
   String? caption;
-  List<Map<User, String>>? comments;
+  Map<User?, String?>? comments;
 
   Post({this.user, this.image, this.likesCount, this.caption, this.comments});
 }
